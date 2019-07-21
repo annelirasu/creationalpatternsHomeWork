@@ -19,5 +19,10 @@ public class ShapeCache {
       Rectangle rectangle = new Rectangle();
       rectangle.setId("3");
       shapeMap.put(rectangle.getId(), rectangle);
+
+      Circle circle = new Circle();
+      circle.setId("4");
+      shapeMap.put(circle.getId(),circle);
+
    }
 }

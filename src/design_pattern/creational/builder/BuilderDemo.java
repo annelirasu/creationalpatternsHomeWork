@@ -9,7 +9,11 @@ public class BuilderDemo {
                 .build();
         System.out.println(pizza);
 
-//        Pizza pizza2 = new Pizza.Builder(3)
+        Book book = new Book.Builder("alex")
+                .pages(123).build();
+        System.out.println(book);
+
+//      Pizza pizza2 = new Pizza.Builder(3)
 //                .cheese(true)
 //                .pepperoni(true)
 //                .bacon(true)

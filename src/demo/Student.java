@@ -13,13 +13,13 @@ class Student implements Cloneable{
         return super.clone();
     }
 
-    @Override
-    public String toString() {
-        return "Student{" +
-                "age=" + age +
-                ", name='" + name + '\'' +
-                '}';
-    }
+//    @Override
+//    public String toString() {
+//        return "Student{" +
+//                "age=" + age +
+//                ", name='" + name + '\'' +
+//                '}';
+//    }
 
     public static void main(String args[]){
         try{
